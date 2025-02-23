@@ -20,12 +20,28 @@ int main() {
     printf ("Desafio Cartas SuperTrunfo - Novato \n");
     printf("Graduaçao em Rede de Computadores \n");
     
-    char estado[30];
-    char codigo [30];
+    //Variáveis;
 
-    
+    char estado[30], codigo [30], cidade [30];
+    float populacao, area, pib, pontos;
+
+    //Desenvolvimento;
+        
     printf("Digite o nome do estado:");
-    scanf("%s",estado);
+    scanf("%s",&estado);
+    printf("Digite o Código da Carta: ");
+    scanf("%s",&codigo);
+    printf("digite o nome da cidade: ");
+    scanf("%s",&cidade);
+    printf("Digite a quantidade da população: ");
+    scanf("%f",&populacao);
+    printf("Digite a área: ");
+    scanf("%f", &area);
+    printf("Digite o PIB: ");
+    scanf("%f",pib);
+    printf("Digite a quantidade de pontos turísticos: ");
+    scanf("%pontos",&pontos);
+    
 
 
 
