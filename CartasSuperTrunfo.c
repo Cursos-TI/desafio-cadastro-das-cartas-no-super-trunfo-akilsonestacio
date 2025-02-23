@@ -19,6 +19,13 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
     printf ("Desafio Cartas SuperTrunfo - Novato \n");
     printf("Graduaçao em Rede de Computadores \n");
+    
+    char estado[30];
+    char codigo [30];
+
+    
+    printf("Digite o nome do estado:");
+    scanf("%s",estado);
 
 
 
